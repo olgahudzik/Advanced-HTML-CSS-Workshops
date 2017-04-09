@@ -1,0 +1,246 @@
+<?php get_header(); ?>
+<div class="background_first_section">
+  <section class="first">
+    <div class="left_character">
+      &lt;
+    </div>
+    <div class="chair_image">
+      <ul>
+        <li style="list-style-type: none;"><img src="./images/black_chair.png" class="chair chair_1"/></li>
+        <li style="list-style-type: none; display: none;"><img src="./images/orange.png" class="chair chair_2"/></li>
+        <li style="list-style-type: none; display: none;"><img src="./images/red.png" class="chair chair_3"/></li>
+      </ul>
+
+    </div>
+    <div class="text">
+      <h1>SIT <span class="top">ON</span> OUR <span class="top">CHAIR</span></h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aliquam mauris ex, venenatis in nibh nec, hendrerit commodo eros.
+        Nam sagittis hendrerit leo nec aliquam. Pellentesque aliquam condimentum augue vel feugiat.
+        <br /><br /><br />
+      </p>
+        <div class="button">
+          <a href="#" class="button_text">ZOBACZ WIĘCEJ</a>
+        </div>
+    </div>
+    <div class="right_character">
+      &gt;
+    </div>
+  </section>
+</div>
+<div class="background_second_section">
+  <section class="second">
+        <div class="second__cell image1">
+          <img class="small_images clair" src="./images/box1_img.jpg"/>
+          <div class="transparent_bar">
+            <span class="border_bottom_short black">Chair CLAIR</span>
+          </div>
+        </div>
+        <div class="second__cell image2">
+          <img class="small_images margarita" src="./images/box2_img.jpg"/>
+          <div class="transparent_bar ">
+            <span class="border_bottom_short black">Chair MARGARITA</span>
+          </div>
+        </div>
+        <div class="second__cell image3">
+          <div class="title">
+              <span class="border_bottom_short black">Finds all inputs</span>
+          </div>
+          <p>
+            Nam sagittis hendrerit leo nec aliquam.
+            Pellentesque aliquam condimentum augue vel feugiat.
+            Nam sagittis hendrerit leo nec aliquam.
+            Pellentesque aliquam condimentum augue vel feugiat.<br /><br />
+          </p>
+          <p>
+            Nam sagittis hendrerit leo nec aliquam.
+            Pellentesque aliquam condimentum.<br /><br />
+          </p>
+        </div>
+  </section>
+</div>
+<div class="background_third_section">
+  <section class="third">
+    <div class="cennik_title border_bottom_long">
+      <span class="black"><h3>CENNIK</h3></span>
+    </div>
+    <table class="container">
+      <tr>
+        <td>
+          <div class="icon"><!--powinno byc na position relative, wszystkie elementy w srodku maja byc divami-->
+            <div class="circle1 white_background">
+            </div>
+            <div class="circle2 grey_background">
+            </div>
+            <div class="headline turquise">BASIC PLAN</div><!--powinno byc na absolute wszytskie elementy w srodku-->
+            <div class="circle_price grey_border white_background"><p class="85 grey" style="font-size:28px;font-weight:bold;margin:20px;">85<sup>99</sup><br /><span style="font-size:12px;font-weight:bold;">PLN/MSC</span></p></div>
+            <div class="conditions">
+              <div class="zakup_towaru">
+                Zakup towaru + dowoz
+              </div>
+              <div class="serwis">
+                Serwis
+              </div>
+              <div class="dolacz_button button_position1">
+                DOŁĄCZ
+              </div>
+            </div>
+      </td>
+      <td>
+        <div class="icon2  turquise_background">
+          <div class="circle1 turquise_background"  style="border-color:#24b99e;">
+          </div>
+          <div class="circle2 white_background">
+          </div>
+          <div class="headline white">STANDARD PLAN</div><!--powinno byc na absolute wszytskie elementy w srodku-->
+          <div class="circle_price grey_border white_background"><p class="85 turquise" style="font-size:28px;font-weight:bold;margin:20px;">95<sup>99</sup><br /><span  style="font-size:12px;font-weight:bold;">PLN/MSC</span></p></div>
+          <div class="conditions">
+            <div class="zakup_towaru">
+              Zakup towaru + dowoz
+            </div>
+            <div class="serwis">
+              Serwis
+            </div>
+            <div class="zakup_towaru">
+              Gwarancja 6 lat
+            </div>
+            <div class="dolacz_button2 button_position2">
+              DOŁĄCZ
+            </div>
+          </div>
+      </td>
+      <td>
+          <div class="icon3">
+            <div class="circle1 white_background">
+            </div>
+            <div class="circle2 grey_background">
+            </div>
+            <div class="headline turquise">ADVANCE PLAN</div><!--powinno byc na absolute wszytskie elementy w srodku-->
+            <div class="circle_price grey_border white_background"><p class="85 grey" style="font-size:28px;font-weight:bold;margin:20px;">211<sup>00</sup><br /><span  style="font-size:12px;font-weight:bold;">PLN/MSC</span></p></div>
+            <div class="conditions">
+              <div class="zakup_towaru">
+                Zakup towaru + dowoz
+              </div>
+              <div class="serwis">
+                Serwis
+              </div>
+              <div class="zakup_towaru">
+                Gwarancja 6 lat
+              </div>
+              <div class="serwis">
+                Porady projektanta
+              </div>
+              <div class="dolacz_button button_position3">
+                DOŁĄCZ
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </section>
+</div>
+<div class="background_fourth_section">
+  <section class="application ">
+      <div class="main_width">
+          <section class="choice_part inline fourth2">
+              <header>
+                  <h3>SKOMPONUJ SWOJE KRZESŁO</h3>
+                  <span class="green_bell"></span>
+              </header>
+
+              <div class="form">
+                  <div class="drop_down_list">
+                      <span class="list_label">Wybierz rodzaj</span>
+                      <span class="list_arrow"></span>
+                      <ul class="list_panel">
+                          <li>Clair</li>
+                          <li>Margarita</li>
+                          <li>Selena</li>
+                      </ul>
+                  </div>
+                  <div class="drop_down_list">
+                      <span class="list_label">Wybierz kolor</span>
+                      <span class="list_arrow"></span>
+                      <ul class="list_panel">
+                          <li>Czerwony</li>
+                          <li>Czarny</li>
+                          <li>Pomarańczowy</li>
+                      </ul>
+                  </div>
+                  <div class="drop_down_list">
+                      <span class="list_label">Wybierz materiał</span>
+                      <span class="list_arrow"></span>
+                      <ul class="list_panel">
+                          <li>Tkanina</li>
+                          <li>Skóra</li>
+                      </ul>
+                  </div>
+                  <div class="checkbox check-box">
+                      <input type="checkbox" id="transport" data-transport-price="200">
+                      <label for="transport">Transport</label>
+                  </div>
+                  <!--<div class="checkbox"></div>-->
+                  <!--<span class="list_label inline_text">Transport</span>-->
+              </div>
+
+              <img src="images/red.png">
+
+              <header class="align_right">
+                  <h3>PODSUMOWANIE</h3>
+                  <span class="green_bell"></span>
+              </header>
+
+              <div class="summary_panel">
+                  <div class="panel_left">
+                      <h4 class="title">Twój fotel</h4>
+                      <span class="color"></span>
+                      <span class="pattern"></span>
+                      <span class="transport"></span>
+                  </div>
+                  <div class="panel_right">
+                      <h4 class="title value"></h4>
+                      <span class="color value"></span>
+                      <span class="pattern value"></span>
+                      <span class="transport value"></span>
+                  </div>
+                  <div class="sum_label">SUMA</div>
+                  <div class="sum"><strong></strong></div>
+              </div>
+              <a href="" class="green_button">Zamawiam</a>
+          </section>
+      </div>
+  </section>
+  <section class="fourth">
+    <div class="cennik_title border_bottom_long">
+      <span class="black"><h3>KONTAKT</h3></span>
+    </div>
+
+      <form>
+        <fieldset>
+          <div class="form">
+          <input type="text" name="name" placeholder="Imię" class="field"/><br />
+          <input type="text" name="surname" placeholder="Nazwisko" class="field"/><br />
+          <div>
+            <div class="inside_form_left">
+              <textarea name="message" placeholder="Wiadomość" class="field comment"></textarea>
+            </div>
+            <div class="inside_form_right">
+              <input type="radio" name="consent" class="field checkbox" checked/>
+            </div>
+          </div>
+            </div>
+            <div class="submit">
+              <div class="armchair_image">
+                <img src="red_chair.png" class="image"/>
+              </div>
+              <div class="button">
+                <input type="submit" name="Wyślij" value="WYŚLIJ"/>
+              </div>
+            </div>
+        </fieldset>
+      </form>
+
+
+  </section>
+</div>
